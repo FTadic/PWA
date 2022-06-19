@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ccc;
+}
+
+header {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper2 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper2 h2 {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.time {
+    padding-left: 20px;
+    color: #888;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #888;
+    font-weight: normal;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    margin: 25px 0;
+    width: 100%;
+}
+
+p {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #888;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+.text-color {
+    color: #d33030;
+    font-weight: normal;
+}
+
+.subhead::first-letter {
+    font-size: 45px;
+    float: left;
+    line-height: 0.8;
+    font-weight: 800;
+}
+
+.form-field input {
+    padding: 5px;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+.form-item {
+    margin: 30px 0;
+}
+
+label {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-field-textual {
+    width: 320px;
+}
+
+.form-field-textual {
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    width: 160px;
+    border: none;
+    cursor: pointer;
+    background-color: #20ac3e;
+    color: #fff;
+    font-weight: 500;
+}
+
+.reg {
+    margin-top: 10px;
+}
+
+@media (max-width: 1686px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 555px) {
+    button {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .form-field-textual {
+        width: 100%;
+    }
+
+    .file {
+        width: 100%;
+    }
+    
+    .ponisti {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* @media (max-width: 900px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .politics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .politics-aritcle {
+        align-items: center;
+    }
+} */
